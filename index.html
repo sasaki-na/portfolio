@@ -1,0 +1,124 @@
+<!doctype html>
+<html>
+
+<head>
+  <title>何ですか？この箱は</title>
+  <link rel="icon" type="image/png" href="img/start_box.png">
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=Asap:ital,wght@1,500&display=swap");
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", YuGothic, "ヒラギノ角ゴ ProN W3", Hiragino Kaku Gothic ProN, Arial, "メイリオ", Meiryo, sans-serif;
+      background-color: #ffecec;
+    }
+
+    .mv {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 90vh;
+      text-align: center;
+      color: #7ecaca;
+    }
+
+    .mv-container {
+      padding: 0 40px;
+    }
+
+    .mv_serihu {
+      position: relative;
+    }
+
+    #hukidasi {
+      width: 50%;
+      height: 100%;
+      margin: 0 auto;
+      margin-bottom: 3%;
+    }
+
+    .serihu {
+      font-size: 21px;
+      font-weight: bold;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -170%);
+    }
+
+    #box_img {
+      align-items: center;
+      width: 10%;
+      margin-bottom: 10%;
+    }
+
+    .buruburu {
+      display: inline-block;
+      animation: hurueru .1s infinite;
+    }
+
+    @keyframes hurueru {
+      0% {
+        transform: translate(0px, 0px) rotateZ(0deg)
+      }
+
+      25% {
+        transform: translate(2px, 2px) rotateZ(1deg)
+      }
+
+      50% {
+        transform: translate(0px, 2px) rotateZ(0deg)
+      }
+
+      75% {
+        transform: translate(2px, 0px) rotateZ(-1deg)
+      }
+
+      100% {
+        transform: translate(0px, 0px) rotateZ(0deg)
+      }
+    }
+
+    .footer {
+      padding: 30px;
+    }
+
+    .copyright {
+      font-size: 70%;
+      text-align: center;
+      color: #2cc5c5;
+      font-weight: bold;
+    }
+
+  </style>
+</head>
+
+<body>
+
+  <!-- mv -->
+  <div class="mv">
+    <div class="mv-container">
+      <div class="mv_serihu">
+        <img src="img/hukidasi.png" id="hukidasi">
+        <h1 class="serihu">
+          アケテ・・・
+        </h1>
+      </div>
+      <div class="mv_box_logo">
+
+        <a href="home.html"><img class="buruburu" src="img/start_box.png" id="box_img"></a>
+      </div>
+    </div>
+  </div>
+  <!-- /mv -->
+
+  <!-- footer -->
+  <footer class="footer">
+    <div class="copyright">&copy;Sasaki Nanaka</div>
+  </footer>
+  <!-- /footer -->
+
+
+
+</body>
+
+</html>
