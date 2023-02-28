@@ -56,6 +56,14 @@ a{
 }
 
 
+#box7 {
+  background-color: #b1d7dc;
+  box-sizing: 100%;
+}
+
+
+
+
 
 .title{
   position: absolute;
@@ -85,7 +93,7 @@ a{
   display: block;
   height: 20px;
   margin-bottom: 5px;
-  color: #96c6ce;
+  color: #076f82;
   position: relative;
   padding: 4px;
   font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", YuGothic, "繝偵Λ繧ｮ繝手ｧ偵ざ ProN W3", Hiragino Kaku Gothic ProN, Arial, "繝｡繧､繝ｪ繧ｪ", Meiryo, sans-serif
@@ -319,27 +327,33 @@ margin-top: 5%;
 .about_more_btn{
   text-align: right;
   font-size: 13px;
-  color: #7ecaca;
 }
 
 
 .about_more_btn a{
-  color: #1fa1a1;
+  color: #3a9494;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
 }
 
 
 
 .about_more_btn a:hover{
-  color: rgb(231, 117, 138);
+  color: rgb(222, 145, 192);
 }
-
-
+  
+  
 
 
 /* work */
 
-#work1 .title{
-  color: #915b31;
+.wt{
+  text-align: center;
+  margin-top: 15%;
+}
+
+#work_logo{
+  width: 15%;
 }
 
 .swiper{
